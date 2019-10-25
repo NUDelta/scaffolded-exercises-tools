@@ -34,7 +34,13 @@ var Map = function($map) {
     */
 
     centre = [Math.floor(-position[0] / tilesize), Math.floor(-position[1] / tilesize)];
-    $('#centre')[0].innerHTML = `<b>centre</b> = ${centre}`; // CONSOLE HELP
+    $('#centre')[0].innerHTML = 
+      `<b>centre</b> =<br>
+                      [Math.floor(${-position[0]} / tilesize), Math.floor(${-position[1]} / tilesize)]
+                      <br>
+                     =[Math.floor(${-position[0] / tilesize}), Math.floor(${-position[1] / tilesize})]
+                     <br>
+                     =${centre}`; // CONSOLE HELP
 
     // show last value and curr value
     tile_name = function(x, y) {
