@@ -1,0 +1,44 @@
+#change-demos-wrapper {
+  display: none;
+  margin-top: 10px;
+}
+
+#change-console {
+  width: 300px;
+  /* height: 300px; */
+  background-color: lightblue;
+  z-index: 1000;
+  text-align: left;
+  padding-left: 10px;
+}
+
+#server-images {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.server-img-tile {
+  border: 2px lightblue solid;
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  background-color: white;
+}
+
+#coords {
+	background-color: lightblue;
+	opacity: .8;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	margin-top: 90px;
+  margin-left: 60px;
+  text-align: left;
+}
+
+p {
+  margin: 12px 0px;
+}
